@@ -1,0 +1,139 @@
+/* Hero Section */
+.hero-section {
+  min-height: 100vh;
+  background-color: var(--color-light-lavender);
+  display: flex;
+  align-items: center;
+}
+
+/* About Section */
+.contact-info {
+  background-color: var(--color-white);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Education Section */
+.education-card {
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Experience Section */
+.experience-card {
+  border-left: 4px solid var(--color-purple);
+  margin-bottom: 1.5rem;
+}
+
+/* Projects Section */
+.project-card {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Skills Section */
+.skill-category {
+  background-color: var(--color-white);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skill-category h3 {
+  color: var(--color-deep-purple);
+}
+
+/* Gallery Section */
+.gallery-image {
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+/* Shared Section Styles */
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #E6E6FA;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.section-icon {
+  font-size: 2.5rem;
+  margin-right: 15px;
+  color: #E6E6FA;
+  animation: iconFloat 3s ease-in-out infinite;
+}
+
+/* Shared Icon Animations */
+@keyframes iconFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes iconPulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(230, 230, 250, 0.4);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px 5px rgba(230, 230, 250, 0.2);
+  }
+}
+
+@keyframes iconRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Section-specific icon animations */
+.education-icon,
+.experience-icon,
+.project-icon,
+.skill-icon,
+.gallery-icon,
+.contact-icon {
+  animation: iconFloat 3s ease-in-out infinite;
+}
+
+.education-icon svg,
+.experience-icon svg,
+.project-icon svg,
+.skill-icon svg,
+.gallery-icon svg,
+.contact-icon svg {
+  animation: iconRotate 4s linear infinite;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .contact-info {
+    padding: 1rem;
+  }
+  
+  .section-icon {
+    font-size: 2rem;
+  }
+}

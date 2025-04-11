@@ -1,0 +1,51 @@
+/* Custom CSS Variables */
+:root {
+  --color-white: #FEFEFE;
+  --color-purple: #A185E7;
+  --color-deep-purple: #5E3A7A;
+  --color-lavender: #7D5FB2;
+  --color-light-lavender: #F3EFFC;
+  --color-dark-plum: #2F1B46;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--color-white);
+  color: var(--color-dark-plum);
+}
+
+.section-title {
+  color: var(--color-deep-purple);
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.btn-custom {
+  background-color: var(--color-lavender);
+  color: var(--color-white);
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: var(--color-deep-purple);
+  transform: translateY(-2px);
+}
+
+.section-bg-light {
+  background-color: var(--color-light-lavender);
+  padding: 4rem 0;
+}
+
+/* Animation classes */
+.fade-up {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease;
+}
+
+.fade-up.active {
+  opacity: 1;
+  transform: translateY(0);
+}

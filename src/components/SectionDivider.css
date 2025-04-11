@@ -1,0 +1,23 @@
+.section-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem 0;
+  gap: 1rem;
+}
+
+.divider-line {
+  height: 2px;
+  background-color: var(--color-purple);
+  flex: 1;
+  max-width: 100px;
+  opacity: 0.3;
+}
+
+.divider-title {
+  color: var(--color-deep-purple);
+  margin: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
