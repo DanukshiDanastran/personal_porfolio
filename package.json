@@ -1,8 +1,9 @@
 {
-  "name": "danukshi-portfolio",
+  "name": "personal-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://DanukshiDanastran.github.io/personal-portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
