@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
 import { Container } from 'react-bootstrap'
 import AOS from 'aos'
 import Navigation from './components/Navigation'
@@ -37,7 +38,7 @@ function App() {
   }
 
   return (
-    <Router>
+    <Router basename="/personal-portfolio">
       <Navigation />
       <Routes>
         <Route path="/" element={
