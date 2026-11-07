@@ -59,8 +59,9 @@ function About() {
                 </div>
               </div>
               <p className="lead mb-4">
-                Passionate and dedicated Health Promotion professional with expertise in community engagement, 
-                data collection, and evaluation of public health initiatives.
+                Motivated Health Promotion professional with experience in project coordination, programme
+                implementation, community engagement, training facilitation and stakeholder coordination.
+                Committed to organisational goals and community wellbeing.
               </p>
               <div className="social-links mb-4">
                 <a href="https://linkedin.com/in/danukshi-danastran-048110320" className="me-3" target="_blank" rel="noopener noreferrer">

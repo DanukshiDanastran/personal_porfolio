@@ -12,7 +12,7 @@ function Footer() {
           <Col md={3}>
             <h5 className="footer-title">Profile Summary</h5>
             <p className="footer-summary">
-              Passionate Health Promotion professional with expertise in community engagement, program evaluation, and advocacy for child protection. Skilled in research, public health campaigns, and digital content creation.
+              Health Promotion professional experienced in project coordination, community engagement, training facilitation and programme implementation. Skilled in monitoring, documentation and digital awareness content.
             </p>
           </Col>
           <Col md={3}>
@@ -48,9 +48,10 @@ function Footer() {
             <h5 className="footer-title">Contact Information</h5>
             <div className="footer-contact">
               <h6 className="mb-3">Danukshi Danastran</h6>
-              <p><FaPhone className="me-2" />+94 766 863 242</p>
+              <p><FaPhone className="me-2" />+94 76 686 3242</p>
+              <p><FaPhone className="me-2" />+94 70 418 0432</p>
               <p><FaEnvelope className="me-2" />ddanukshi26@gmail.com</p>
-              <p><FaMapMarkerAlt className="me-2" />Rasalingam St, Iruthayapuram, Mutur, Trincomalee</p>
+              <p><FaMapMarkerAlt className="me-2" />Rasalingam St, Iruthayapuram, Mutur, Trincomalee, Sri Lanka</p>
             </div>
           </Col>
         </Row>

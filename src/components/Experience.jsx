@@ -1,46 +1,51 @@
-import { Container, Row, Col, Card } from 'react-bootstrap'
-import { FaBriefcase, FaUniversity, FaHandshake, FaUsers, FaChartLine, FaBook, FaHandHoldingHeart, FaLaptopCode, FaHeartbeat, FaGraduationCap, FaBaby, FaSmokingBan } from 'react-icons/fa'
+import { Container, Row, Col } from 'react-bootstrap'
+import { FaBriefcase, FaHeartbeat, FaChalkboardTeacher, FaUsers, FaHandHoldingHeart } from 'react-icons/fa'
 import './Experience.css'
 
 function Experience() {
   const experiences = [
     {
-      title: "Field Work Experience",
-      company: "Mahakanadarawa Yaya 2 Village",
-      period: "2023-2024",
+      title: "Health Promotion Officer (Volunteer)",
+      company: "Regional Directorate of Health Services, Batticaloa",
+      period: "May 2025 – Present",
       icon: FaHeartbeat,
-      color: "#4CAF50",
       points: [
-        "Led health promotion initiatives in rural community",
-        "Engaged with diverse community groups (mothers, students, teachers, women's groups)",
-        "Identified and addressed key health issues",
-        "Implemented community-based health interventions"
+        "Designed and edited health promotion posters, digital awareness materials and social media advocacy content",
+        "Developed presentations and visual educational materials for training sessions and community programmes",
+        "Participated in field visits, health awareness programmes, community activities and training sessions"
       ]
     },
     {
-      title: "Health Issues Addressed",
-      company: "Community Health Projects",
-      period: "2023-2024",
+      title: "Master Trainer – Safe Food Empowerment Project",
+      company: "SUN PF & FAO BESPA Project",
+      period: "September 2025 – Present",
+      icon: FaChalkboardTeacher,
+      points: [
+        "Selected and trained as a Master Trainer under the SUN PF & FAO BESPA Safe Food Empowerment Project",
+        "Facilitated Training of Trainers (ToT) sessions for civil society organisations and youth groups",
+        "Supported capacity-building, community awareness, monitoring and progress reporting"
+      ]
+    },
+    {
+      title: "Field Coordinator",
+      company: "Family Wellbeing Centre – Trincomalee District",
+      period: "January 2025 – Present",
+      icon: FaUsers,
+      points: [
+        "Coordinate and supervise district-level field activities to improve community wellbeing",
+        "Work with families, community leaders and organisations to support programme implementation",
+        "Support planning, monitoring, evaluation and reporting of project activities"
+      ]
+    },
+    {
+      title: "Intern – Child Protection",
+      company: "National Child Protection Authority (NCPA)",
+      period: "2024 – 2025",
       icon: FaHandHoldingHeart,
-      color: "#2196F3",
       points: [
-        "Reduced risks of non-communicable diseases (NCDs)",
-        "Improved academic performance of school students",
-        "Promoted better early childhood care and development (ECCD)",
-        "Reduced alcohol and tobacco consumption"
-      ]
-    },
-    {
-      title: "University Student Well-being",
-      company: "Rajarata University",
-      period: "2022-2024",
-      icon: FaGraduationCap,
-      color: "#9C27B0",
-      points: [
-        "Collaborated with student groups to promote well-being",
-        "Developed and implemented health awareness programs",
-        "Organized wellness workshops and activities",
-        "Created supportive environment for student health"
+        "Led child protection awareness programmes in schools and communities",
+        "Coordinated educational sessions with district-level institutions",
+        "Completed certified child protection training and supported safeguarding initiatives"
       ]
     }
   ];
@@ -54,7 +59,7 @@ function Experience() {
         </h2>
         <Row className="g-4">
           {experiences.map((exp, index) => (
-            <Col lg={4} key={index} data-aos="fade-up" data-aos-delay={index * 100}>
+            <Col lg={6} key={index} data-aos="fade-up" data-aos-delay={index * 100}>
               <div className="experience-card">
                 <div className="experience-icon">
                   <exp.icon />

@@ -21,7 +21,11 @@ function Contact() {
               <h3 className="mb-4">Contact Information</h3>
               <div className="d-flex align-items-center mb-3">
                 <FaPhone className="text-purple me-2" />
-                <span>+94766863242</span>
+                <span>+94 76 686 3242</span>
+              </div>
+              <div className="d-flex align-items-center mb-3">
+                <FaPhone className="text-purple me-2" />
+                <span>+94 70 418 0432</span>
               </div>
               <div className="d-flex align-items-center mb-3">
                 <FaEnvelope className="text-purple me-2" />
@@ -29,7 +33,7 @@ function Contact() {
               </div>
               <div className="d-flex align-items-center mb-4">
                 <FaMapMarkerAlt className="text-purple me-2" />
-                <span>Rasalingam St, Iruthayapuram, Mutur, Trincomalee</span>
+                <span>Rasalingam St, Iruthayapuram, Mutur, Trincomalee, Sri Lanka</span>
               </div>
               <div className="social-links">
                 <a href="https://linkedin.com/in/danukshi-danastran-048110320" className="me-3" target="_blank" rel="noopener noreferrer">

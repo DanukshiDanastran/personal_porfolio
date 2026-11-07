@@ -111,9 +111,9 @@ function Education() {
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
-                  <div className="timeline-date">2020 - 2024</div>
+                  <div className="timeline-date">2021 - 2025</div>
                   <h4>BSc in Health Promotion</h4>
-                  <p>Rajarata University of Sri Lanka</p>
+                  <p>Rajarata University of Sri Lanka, Faculty of Applied Sciences</p>
                 </div>
               </div>
             </div>
@@ -128,19 +128,19 @@ function Education() {
             <div className="accordion-container">
               {[
                 {
-                  title: 'Child and Educational Psychology',
-                  institution: 'Professional Certification',
-                  year: '2023'
-                },
-                {
-                  title: 'Counselling Psychology',
+                  title: 'Diploma in Child and Educational Psychology',
                   institution: 'Transmind Institute of Training and Development (Pvt) Ltd',
-                  year: '2023'
+                  year: '2022 - 2023'
                 },
                 {
-                  title: 'Human Resource Management',
+                  title: 'Diploma in Counselling Psychology',
+                  institution: 'Transmind Institute of Training and Development (Pvt) Ltd',
+                  year: '2022 - 2023'
+                },
+                {
+                  title: 'Diploma in Human Resource Management',
                   institution: 'CASED Institute',
-                  year: '2023'
+                  year: '2024 - 2025'
                 }
               ].map((diploma, index) => (
                 <div 
