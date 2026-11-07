@@ -1,7 +1,7 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import { FaLinkedin, FaGithub, FaTwitter, FaDownload } from 'react-icons/fa'
 import './About.css'
-import danuImage from '../assets/danu.jpeg'
+import danuImage from '../assets/danu001.jpeg'
 import { useEffect, useState } from 'react'
 
 function About() {
@@ -35,8 +35,9 @@ function About() {
 
   const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/DANUKSHI DANASTRAN.pdf';
-    link.download = 'DANUKSHI DANASTRAN.pdf';
+    // BASE_URL includes GitHub Pages path (e.g. /personal_porfolio/)
+    link.href = `${import.meta.env.BASE_URL}Danukshi_Danastran_CV.pdf`;
+    link.download = 'Danukshi_Danastran_CV.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
